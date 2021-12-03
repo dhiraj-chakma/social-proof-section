@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 15px;
+        font-family: 'Spartan', sans-serif;
+        padding: 30px;
+    }
+    
+    .header{
+        text-align: center;
+        color: hsl(303, 10%, 53%);
+    }
+    .header h1{
+        color: hsl(300, 43%, 22%);
+    }
+    .review{
+        height: 80px;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 5px; 
+        margin: 5px;
+        padding-top: 8px;
+        text-align: center;
+        font-weight: 600;
+        color: hsl(300, 43%, 22%);
+    }
+    .comments{
+        margin-top: 40px;
+       color: hsl(0, 0%, 100%);
+    }
+    
+    .comments img{
+        border-radius: 50%;
+
+    }
+    .person{
+        display: flex;
+        height: 50px;
+    }
+    .name{
+        line-height: 5px;
+        margin-left: 15px;
+    }
+
+    .comment{
+        padding: 30px;
+        background-color: hsl(300, 43%, 22%);
+        margin:0 5px 10px 5px;
+        border-radius: 10px;
+    }
+    .verify{
+        color: hsl(333, 80%, 67%);
+    }
+}
