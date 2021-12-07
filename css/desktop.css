@@ -1,0 +1,93 @@
+@media only screen and (min-width: 768px){
+   .container{
+       display: grid;
+       grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 5px;
+        height: 100%;
+        
+   }
+
+   
+   h1{
+       font-size: 50px;
+       color: hsl(300, 43%, 22%);
+   }
+   .header{
+       grid-column: 3/ span 3;
+       align-self:center;
+       margin-left: auto;
+       padding-left: 15px;
+   }
+   .rating{
+    
+       grid-column: 7/ span 3;
+       color: hsl(300, 43%, 22%);
+       font-weight: 800;
+       align-self: center;
+       display: grid;
+       
+   }
+   .review {
+       display: flex;
+       margin: 5px;
+       background-color: hsl(300, 24%, 96%);
+       border-radius: 10px;
+   }
+   .first{
+       justify-self: flex-start;
+   }
+   .second{
+       justify-self: center;
+   }
+   .third{
+       justify-self: flex-end;
+   }
+   .review img{
+       width: 20px;
+       height: 20px;
+       align-self: center;
+   }
+   .comments{
+        padding: 10px;
+        grid-row: 2/span1;
+        grid-column: 3/ span 8;
+        display: grid;
+        grid-gap: 15px;
+        margin: 80px auto 10px auto;
+        
+   }
+   .comment{
+       width: 75%;
+       height: 70%;
+       background-color: hsl(300, 43%, 22%);
+       padding: 30px;
+       color: hsl(0, 0%, 100%);
+       border-radius: 10px;
+   }
+   .one{
+       grid-column: 2/span 4;
+       align-self: flex-start;
+   }
+   .two{
+    grid-column: 6/span 4;
+    align-self: center;
+}
+.three{
+    grid-column: 10/span 4;
+    align-self: flex-end;
+}
+   .person{
+       display: flex;
+   }
+   .person img{
+       border-radius: 50%;
+   }
+   .name{
+       margin-left: 20px;
+   }
+   .verify{
+       color: hsl(333, 80%, 67%);
+   }
+   
+}
