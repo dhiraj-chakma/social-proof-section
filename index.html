@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Spartan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tab.css">
     <link rel="stylesheet" href="./css/desktop.css">
     <title>Frontend Mentor | Social proof section</title>
 
@@ -23,50 +24,60 @@
       body{
         box-sizing: border-box;
         font-family: 'Spartan', sans-serif;
+        
       }
     </style>
   </head>
   <body>
     <div class="container">
-     
-        <div class="header">
-          <h1>10,000+ of our users love our products.</h1>
-          <p>
-            We only provide great products combined with excellent customer service.
-            See what our satisfied customers are saying about our services.
-          </p>
-        </div>
-  
-        <div class="rating">
-          <div class="review first">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <p>Rated 5 Stars in Reviews</p>
-            
-          </div>
+     <div class="main-part">
+      <div class="header">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>
+          We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.
+        </p>
+      </div>
 
-          <div class="review second">
+      <div class="rating">
+        <div class="review ">
+          <div class="images">
             <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <p>Rated 5 Stars in Report Guru</p>
-            
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
           </div>
-          <div class="review third">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <img src="./images/icon-star.svg" alt="">
-            <p>Rated 5 Stars in BestTech</p>
-            
-          </div>
+          
+          <p>Rated 5 Stars in Reviews</p>
+          
         </div>
+
+        <div class="review middle">
+          <div class="images">
+            <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          </div>
+          <p>Rated 5 Stars in Report Guru</p>
+          
+        </div>
+        <div class="review end">
+          <div class="images">
+            <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          <img src="./images/icon-star.svg" alt="">
+          </div>
+          <p>Rated 5 Stars in BestTech</p>
+          
+        </div>
+      </div>
+     </div>
+        
       
       
 
@@ -79,7 +90,7 @@
               <p class="verify">Verified Buyer</p>
             </div>
           </div>
-           <p>
+           <p class="personal-review">
             "We needed the same printed design as the one we had ordered a week prior.
     Not only did they find the original order, but we also received it in time.
     Excellent!"
@@ -94,7 +105,7 @@
               <p class="verify">Verified Buyer</p>
             </div>
           </div>
-           <p>
+           <p class="personal-review">
             "Customer service is always excellent and very quick turn around. Completely
     delighted with the simplicity of the purchase and the speed of delivery."
            </p>
@@ -108,18 +119,13 @@
               <p class="verify">Verified Buyer</p>
             </div>
           </div>
-           <p>
+           <p class="personal-review">
             "Put an order with this company and can only praise them for the very high
     standard. Will definitely use them again and recommend them to everyone!"
            </p>
         </div>
         </div>
       </div>
-    
-
-        
-    
-
     
   </body>
 </html>

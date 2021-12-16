@@ -1,93 +1,125 @@
-@media only screen and (min-width: 768px){
-   .container{
-       display: grid;
-       grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-gap: 5px;
-        height: 100%;
-        
-   }
-
-   
-   h1{
-       font-size: 50px;
-       color: hsl(300, 43%, 22%);
-   }
-   .header{
-       grid-column: 3/ span 3;
-       align-self:center;
-       margin-left: auto;
-       padding-left: 15px;
-   }
-   .rating{
+@media only screen and (min-width: 992px) {
     
-       grid-column: 7/ span 3;
-       color: hsl(300, 43%, 22%);
-       font-weight: 800;
-       align-self: center;
-       display: grid;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+       width: 100%;
+       height: 100%;
        
-   }
-   .review {
-       display: flex;
-       margin: 5px;
-       background-color: hsl(300, 24%, 96%);
-       border-radius: 10px;
-   }
-   .first{
-       justify-self: flex-start;
-   }
-   .second{
-       justify-self: center;
-   }
-   .third{
-       justify-self: flex-end;
-   }
-   .review img{
-       width: 20px;
-       height: 20px;
-       align-self: center;
-   }
-   .comments{
-        padding: 10px;
-        grid-row: 2/span1;
-        grid-column: 3/ span 8;
-        display: grid;
-        grid-gap: 15px;
-        margin: 80px auto 10px auto;
-        
-   }
-   .comment{
-       width: 75%;
-       height: 70%;
-       background-color: hsl(300, 43%, 22%);
-       padding: 30px;
-       color: hsl(0, 0%, 100%);
-       border-radius: 10px;
-   }
-   .one{
-       grid-column: 2/span 4;
-       align-self: flex-start;
-   }
-   .two{
-    grid-column: 6/span 4;
-    align-self: center;
-}
-.three{
-    grid-column: 10/span 4;
-    align-self: flex-end;
-}
-   .person{
-       display: flex;
-   }
-   .person img{
-       border-radius: 50%;
-   }
-   .name{
-       margin-left: 20px;
-   }
-   .verify{
-       color: hsl(333, 80%, 67%);
-   }
+    }
+    .container{
+        padding: 8.819vw 11.458vw;
+
+    }
+    .main-part{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 3.333vw;
+        color: rgb(81, 32, 81);
+        line-height: 3.333vw;
+    }
+    .header{
+        width: 30.903vw;
+        height: 16.319vw;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+    .header p{
+        font-size: 1.042vw;
+        color: rgb(146, 123, 145);
+    }
    
-}
+    .rating{
+        width: 37.500vw;
+        height: 13.889vw;
+        font-size:0.903vw;
+        color: hsl(300, 43%, 22%);
+        font-weight: 800;
+        flex-grow: 1;
+        flex-basis: 0;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .review {
+        display: flex;
+        margin-bottom: 1.111vw;
+        align-items: center;
+        justify-content: center;
+        width: 30.903vw;
+        height: 3.889vw;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+    }
+    .middle{
+        align-self: center ;
+    }
+    .end{
+        align-self: flex-end;
+    }
+   .images{
+       margin-right: 2.222vw;
+   }
+    .review img{
+        width: 1.149vw;
+        height: 1.095vw;
+    }
+
+
+    .comments{
+        display: grid;
+        grid-template-columns: repeat(11,1fr);
+    grid-template-rows: 1fr;
+    height: 18.472vw;
+    
+    }
+    .comment{
+        box-sizing: border-box;
+        width: 24.306vw;
+        height: 16.250vw;
+        background-color: hsl(300, 43%, 22%);
+        padding: 2.778vw 2.222vw;
+        color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+    }
+    .one{
+        grid-column: 1/span 3;
+        align-self: flex-start;
+    }
+    .two{
+     grid-column: 5/span 3;
+     align-self: center;
+ }
+ .three{
+     grid-column: 9/span 3;
+     align-self: flex-end;
+ }
+    .person{
+        display: flex;
+        align-items: center;
+    }
+    .person img{
+        width: 2.778vw;
+        height: 2.778vw;
+        border-radius: 50%;
+    }
+    .name{
+       
+        margin-left: 1.597vw;
+        font-size: 0.903vw;
+        line-height: 1.042vw;
+    }
+    .verify{
+        color: hsl(333, 80%, 67%);
+    }
+    .personal-review{
+        font-weight: 500;
+        font-size: 0.903vw;
+        line-height: 1.528vw;
+    }
+ }
